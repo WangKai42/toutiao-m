@@ -4,7 +4,8 @@
       class="app-nav-bar"
       title="注册/登录"
       left-arrow
-    />
+      @click-left="$router.back()"
+     />
       <!-- 输入框 -->
       <!-- 2、当1表单提交的时候会触发 submit事件 
             只有表单验证通过，它才会调用 submit

@@ -1,6 +1,6 @@
 <template>
-<div>
-    问答
+<div class="qa">
+    看什么看没有了
 </div>
 </template>
 <script>
@@ -25,5 +25,12 @@ components:{
 </script>
 
 <style scoped lang='less'>
-
+    .qa {
+        width: 200px;
+        height: 200px;
+        margin: 200px auto;
+        font-size: 28px;
+        color: skyblue;
+        font-weight: 700;
+    }
 </style>
