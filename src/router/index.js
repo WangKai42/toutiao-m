@@ -19,7 +19,7 @@ const routes = [{
                 path: '', // 默认子路由
                 name: 'home',
                 component: () =>
-                    import ('../views/home.vue'),
+                    import ('../views/Home.vue'),
                 meta: { requiresAuth: false }
             },
             {
